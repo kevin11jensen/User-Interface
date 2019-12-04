@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid black;
 }
 
 html, body {
@@ -64,3 +65,78 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.links {
+	display: inline-block;
+	color: gray;
+	margin: 25px 500px 25px 75px;
+}
+.logo {
+	display: inline-block;
+	padding-top: 12px;
+	
+
+}
+h1 {
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 200px;
+	font-size: 75px;
+	text-align: center;
+	padding-bottom: 75px;
+}
+button {
+	color: black;
+	background-color: none;
+	border: 1px solid gray;
+	text-align: center;
+	margin-left: 75px;
+	
+}
+.code-snippet {
+	display: inline-block;
+	padding-left: 100px;
+
+}
+#features {
+	display: inline-block;
+	width: 40%;
+	margin-left: 75px;
+}
+#about {
+	display: inline-block;
+	width: 40%;
+}
+.middle-img {
+	margin: 25px 75px 25px 75px;
+}
+.box1 {
+	display: inline-block;
+	width: 25%;
+	margin-left: 75px;
+	margin-right: 20px;
+}
+.box2 {
+	display: inline-block;
+	width: 25%;
+	margin-right: 20px;
+}
+.box3 {
+	display: inline-block;
+	width: 25%;
+}
+#contact {
+	margin: 100px 75px ;
+	width: 20%;
+}
+.phone-number {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.email {
+	margin-top: 15px;
+}
+footer {
+	text-transform: bold;
+	text-align: center;
+}
